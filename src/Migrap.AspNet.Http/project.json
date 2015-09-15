@@ -1,0 +1,16 @@
+﻿{
+  "version": "1.0.0-beta7",
+  "description": "Migrap.AspNet.Http Class Library",
+  "authors": [ "" ],
+  "tags": [ "" ],
+  "projectUrl": "",
+  "licenseUrl": "",
+  "dependencies": {
+    "Microsoft.AspNet.Http": "1.0.0-beta7"
+  },
+
+  "frameworks": {
+    "dnx451": {      
+    }
+  }
+}
