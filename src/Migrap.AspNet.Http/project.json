@@ -1,16 +1,23 @@
 ﻿{
-  "version": "1.0.0-beta7",
+  "version": "1.0.0-*",
   "description": "Migrap.AspNet.Http Class Library",
-  "authors": [ "" ],
+  "authors": [ "michael" ],
   "tags": [ "" ],
   "projectUrl": "",
   "licenseUrl": "",
-  "dependencies": {
-    "Microsoft.AspNet.Http": "1.0.0-beta7"
-  },
-
   "frameworks": {
-    "dnx451": {      
+    "net451": { },
+    "dotnet5.4": {
+      "dependencies": {
+        "Microsoft.CSharp": "4.0.1-beta-23516",
+        "System.Collections": "4.0.11-beta-23516",
+        "System.Linq": "4.0.1-beta-23516",
+        "System.Runtime": "4.0.21-beta-23516",
+        "System.Threading": "4.0.11-beta-23516"
+      }
     }
+  },
+  "dependencies": {
+    "Microsoft.AspNet.Http": "1.0.0-rc1-final"
   }
 }
