@@ -1,5 +1,5 @@
-﻿using Microsoft.AspNet.Http;
-using Microsoft.AspNet.Http.Internal;
+﻿using Microsoft.AspNet.Http.Internal;
+using Microsoft.AspNetCore.Http;
 using Microsoft.Net.Http.Headers;
 using System.IO;
 

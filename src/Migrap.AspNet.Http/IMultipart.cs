@@ -1,4 +1,4 @@
-﻿using Microsoft.AspNet.Http;
+﻿using Microsoft.AspNetCore.Http;
 using System.IO;
 
 namespace Migrap.AspNet.Http {

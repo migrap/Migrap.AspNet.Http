@@ -17,8 +17,7 @@ namespace Migrap.AspNet.Http {
 
         private static string GetName(string contentDisposition) {
             // Content-Disposition: form-data; name="myfile1"; filename="Misc 002.jpg"
-            ContentDispositionHeaderValue cd;
-            ContentDispositionHeaderValue.TryParse(contentDisposition, out cd);
+            ContentDispositionHeaderValue.TryParse(contentDisposition, out ContentDispositionHeaderValue cd);
             return HeaderUtilities.RemoveQuotes(cd?.Name);
         }
     }

@@ -1,6 +1,5 @@
-﻿using Microsoft.AspNet.Http;
+﻿using Microsoft.AspNetCore.Http;
 using System;
-using System.Collections.Generic;
 
 namespace Migrap.AspNet.Http {
     public static class HttpResponseExtensions {
